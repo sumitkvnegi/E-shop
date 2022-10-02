@@ -1,0 +1,84 @@
+.orderDetailsPage {
+  background-color: var(--color6);
+}
+
+.orderDetailsContainer > h1 {
+  font-size: 3rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  margin: 4rem 0;
+  color: var(--color2);
+}
+
+.orderDetailsContainer {
+  padding: 5rem;
+  padding-bottom: 0%;
+}
+
+.orderDetailsContainer > p {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.orderDetailsContainerBox,
+.orderDetailsCartItemsContainer {
+  margin: 2rem;
+}
+
+.orderDetailsContainerBox > div {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.orderDetailsContainerBox > div > p {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: black;
+}
+.orderDetailsContainerBox > div > span {
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #575757;
+}
+
+.orderDetailsCartItems > p {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.orderDetailsCartItems {
+  padding: 2rem 5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.orderDetailsCartItemsContainer > div {
+  display: flex;
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.orderDetailsCartItemsContainer > div > img {
+  width: 3rem;
+}
+
+.orderDetailsCartItemsContainer > div > a {
+  color: #575757;
+  margin: 0 2rem;
+  width: 60%;
+  text-decoration: none;
+}
+
+.orderDetailsCartItemsContainer > div > span {
+  font-size: 2rem;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: #5e5e5e;
+}

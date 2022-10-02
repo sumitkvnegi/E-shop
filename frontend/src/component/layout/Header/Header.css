@@ -1,0 +1,68 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: fit-content;
+  padding: var(--size6) var(--sizel) var(--size5) var(--sizel);
+  background: var(--color2);
+  z-index: 999;
+  box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.3);
+}
+.logo {
+  /* Access */
+  font-family: "Moon Dance";
+  font-style: normal;
+  font-size: var(--size1);
+  font-weight: bold;
+  color: var(--color1);
+  filter: drop-shadow(2px 2px 1px rgba(10, 10, 10, 0.3));
+}
+
+ul {
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size2);
+  font-family: "Poppins";
+  font-size: var(--size5);
+  cursor: pointer;
+}
+
+.link {
+  position: relative;
+  color: var(--color6);
+  opacity: 0.8;
+}
+.link .items {
+  position: absolute;
+  opacity: 1 !important;
+  top: -6px;
+  right: -8px;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.link .items:hover {
+  transform: scale(1.1);
+}
+.active {
+  color: var(--color6);
+  opacity: 1;
+}
+
+.login {
+  color: var(--color1);
+  font-size: var(--size3);
+  transition: var(--transition);
+  position: relative;
+  opacity: 1;
+}
+.login:hover {
+  color: var(--color5);
+  transform: translateX(0.05rem);
+}

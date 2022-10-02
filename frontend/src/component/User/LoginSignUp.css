@@ -1,0 +1,297 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+  --color7: #fb3640;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --size1: 2rem;
+  --size2: 1.75rem;
+  --size3: 1.5rem;
+  --size4: 1rem;
+  --size5: 0.8rem;
+  --size6: 0.5rem;
+
+  --sizexl: 5rem;
+  --sizexm: 4.5rem;
+  --sizel: 4rem;
+  --sizeml: 3.5rem;
+  --sizem: 3rem;
+
+  --transition: all 400ms ease;
+}
+
+.LoginSignUpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftPermote {
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100vh;
+}
+.leftPermote > h2 {
+  font-family: "Poppins";
+  color: var(--color6);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+.leftPermote > p {
+  font-family: "Poppins";
+  color: var(--color6);
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0.6rem;
+  opacity: 0.8;
+}
+.leftPermote .CarouselImage {
+  width: 400px;
+  height: auto;
+}
+
+.Carousel-indicators-15 {
+  mix-blend-mode: screen;
+  margin: 0 !important;
+}
+.rightForm {
+  background-color: var(--color5);
+  padding: 1.5rem 4rem;
+  width: 50%;
+  height: 100vh;
+}
+.LoginSignUpBox {
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.LoginSignUpToggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.LoginSignUpToggle > .regbtn,
+.LoginSignUpToggle > .logbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+}
+
+.LoginSignUpToggle > .regbtn span,
+.LoginSignUpToggle > .logbtn span {
+  color: #666;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: var(--size5);
+}
+
+.LoginSignUpToggle > .regbtn b,
+.LoginSignUpToggle > .logbtn b {
+  color: var(--color3);
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: var(--size5);
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.LoginSignUpToggle > p:hover {
+  color: var(--color2);
+}
+
+.LoginSignUpBox > div > button {
+  background-color: transparent;
+  height: 1px;
+  width: 50%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 8rem 7.5rem;
+  height: 70%;
+  transition: all 0.5s ease;
+}
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 8rem 5rem;
+  height: 70%;
+  transition: all 0.5s ease;
+}
+
+.signUpForm {
+  transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginHead > h1 {
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(47, 39, 39, 0.9);
+}
+
+.loginHead > p {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0 1rem;
+}
+
+.loginForm > div,
+.signUpForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.loginForm > div > input,
+.signUpForm > div > input {
+  box-shadow: 0 0 2px var(--color4);
+  margin: var(--size5) 0;
+  padding: var(--size5) 2rem;
+  padding-left: 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: var(--size5);
+  color: #333;
+  background-color: var(--color6);
+}
+
+.loginForm > div > svg,
+.signUpForm > div > svg {
+  position: absolute;
+  right: 0;
+  transform: translateX(-1vmax);
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #555;
+}
+
+.loginForm > a {
+  text-decoration: none;
+  align-self: flex-end;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Poppins";
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding: 0.6rem 0;
+  transition: all 0.5s;
+}
+
+.loginForm > a:hover {
+  color: #333;
+}
+
+#registerImage > img {
+  width: 2.4rem;
+  border-radius: 100%;
+}
+
+#registerImage > input {
+  display: flex;
+  padding: 0;
+  margin-right: 0.8rem;
+}
+
+#registerImage > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 6vh;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: var(--size5);
+  transition: all 0.5s;
+  color: var(--color3);
+  background-color: var(--color4);
+}
+
+#registerImage > input::file-selector-button:hover {
+  background-color: var(--color6);
+}
+
+.loginBtn,
+.signUpBtn {
+  margin: var(--size5) 0;
+  border: none;
+  background-color: var(--color3);
+  color: var(--color6);
+  width: 100%;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Poppins";
+  font-size: var(--size5);
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.signUpBtn {
+  margin-bottom: 1rem;
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+  color: var(--color3);
+  background-color: var(--color4);
+}
+
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+.shiftToRight {
+  transform: translateX(100%);
+}
+.shiftToNeutralForm {
+  transform: translateX(0%) translateY(-100%);
+}
+.shiftToLeft {
+  transform: translateX(-100%);
+}

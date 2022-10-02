@@ -1,0 +1,39 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.updateOrderForm {
+  margin: 5rem 0;
+  padding: 3rem;
+  background-color: var(--color6);
+}
+
+.updateOrderForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.updateOrderForm > div > select {
+  padding: 1rem 4rem;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: cursive;
+  font-weight: 300;
+  outline: none;
+}
+
+.updateOrderForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.623);
+}

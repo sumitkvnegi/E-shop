@@ -1,0 +1,29 @@
+.orderSuccess {
+  margin: auto;
+  text-align: center;
+  padding: 10rem;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orderSuccess > svg {
+  font-size: 7rem;
+  color: var(--color2);
+}
+.orderSuccess > p {
+  font-size: 2rem;
+}
+.orderSuccess > a {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 2rem;
+}

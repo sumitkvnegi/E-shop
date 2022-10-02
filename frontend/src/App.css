@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+  --color7: #fb3640;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --size1: 2rem;
+  --size2: 1.75rem;
+  --size3: 1.5rem;
+  --size4: 1rem;
+  --size5: 0.8rem;
+  --size6: 0.5rem;
+
+  --sizexl: 5rem;
+  --sizexm: 4.5rem;
+  --sizel: 4rem;
+  --sizeml: 3.5rem;
+  --sizem: 3rem;
+
+  --transition: all 400ms ease;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* FireFox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--color6);
+}
+
+/* body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -99;
+    background-color: var(--color1);
+  }
+   */

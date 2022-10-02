@@ -1,0 +1,155 @@
+.productsHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: var(--sizexl) auto;
+  width: 15vw;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.productsHeading::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background: var(--color3);
+  margin: 10px auto 10px;
+}
+
+.products1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 6rem 6rem;
+  grid-column-gap: var(--sizexl);
+  grid-row-gap: var(--sizexl);
+  justify-items: center;
+}
+
+.paginationBox {
+  margin: 5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.page-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: -0.9rem;
+  padding: 0.6rem 1.4rem;
+  transition: all 0.3s;
+}
+
+.page-item:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.page-item:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.page-link {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: #333;
+  transition: all 0.3s;
+}
+
+.page-item:hover {
+  background-color: var(--color3);
+}
+
+.page-item:hover .page-link {
+  color: #fff;
+}
+
+.pageItemActive {
+  background-color: var(--color2);
+}
+
+.pageLinkActive {
+  color: #fff;
+}
+#filterbtn {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.btnset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5.5rem 4rem;
+  padding: 0.5rem;
+  color: var(--color2);
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  transform: scale(1.2);
+  text-align: center;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+.btnset:hover {
+  transform: scale(1);
+}
+.filterBox {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1rem 0.8rem;
+  border-radius: 12px;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  margin: 4.5rem 6.5rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#filterbtn:checked ~ .filterBox {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pricehead {
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.categoryBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0.6rem;
+  padding: 0.4rem;
+}
+.category-link {
+  background-color: var(--color3);
+  list-style: none;
+  color: #fff;
+  font-size: 0.7rem;
+  margin: -0.8rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 0.2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-transform: capitalize;
+}
+
+.category-link:hover {
+  color: var(--color2);
+  background-color: var(--color4);
+}
+
+.filterBox > fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

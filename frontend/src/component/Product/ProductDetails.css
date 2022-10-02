@@ -1,0 +1,247 @@
+.ProductDetails {
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  display: flex;
+}
+.ProductDetails > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  border: 6px solid var(--color6);
+
+  /* border-bottom: 2px solid var(--color6); */
+}
+.carouselDiv {
+  background-color: #fff;
+}
+.details {
+  /* border-left: 2px solid var(--color3); */
+  background-color: var(--color6);
+}
+
+.ProductDetails > div:last-child {
+  align-items: flex-start;
+}
+
+.CarouselImage {
+  margin-top: 6rem;
+  width: 30rem;
+}
+
+.detailsBlock-1 > h2 {
+  color: rgb(54, 54, 54);
+  font-size: 3rem;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.detailsBlock-1 > p {
+  color: rgba(54, 54, 54, 0.5);
+  font-size: 1rem;
+  font-family: cursive;
+  font-weight: 200;
+}
+
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 70%;
+  padding: 1vmax 0;
+}
+.detailsBlock-2-span {
+  font-weight: 200;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.detailsBlock-3 {
+  width: 70%;
+}
+
+.detailsBlock-3 > h1 {
+  color: rgba(17, 17, 17, 0.8);
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin: 1vmax 0;
+}
+
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.detailsBlock-3-1-1 > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5vmax;
+  cursor: pointer;
+  font-family: "Poppins";
+  color: #fff;
+  transition: all 0.5;
+}
+
+.detailsBlock-3-1-1 > button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.detailsBlock-3-1-1 > input {
+  border: none;
+  width: 1vmax;
+  margin: 0.4rem;
+  text-align: center;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.detailsBlock-3-1 > button:last-child {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s;
+  background-color: var(--color2);
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0.8rem 1.5rem;
+  margin: 1vmax;
+  outline: none;
+}
+
+.detailsBlock-3-1 > button:last-child:hover {
+  background-color: var(--color3);
+}
+
+.detailsBlock-3 > p {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1vmax 0;
+  font-family: "Poppins";
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  margin: 1vmax 0;
+}
+
+.detailsBlock-4 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.detailsBlock-4 > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: "Poppins";
+}
+
+.submitReview {
+  border: none;
+  background-color: var(--color2);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0.8rem 1.5rem;
+  margin: 1vmax 0;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s;
+}
+
+.submitReview:hover {
+  background-color: var(--color3);
+  transform: scale(1.1);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1rem 0;
+  outline: none;
+  padding: 1rem;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.reviewHead {
+  color: var(--color6);
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: "Poppins";
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1vmax;
+  width: 20vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+.reviewbg {
+  background-color: var(--color2);
+  padding: 1rem 2rem;
+}
+.reviewCard {
+  flex: none;
+  background-color: var(--color6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 25vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+  border-radius: 12px;
+}
+
+.reviewCard > img {
+  width: 5rem;
+}
+
+.reviewCard > p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin: 1rem 0;
+}
+
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Handlee";
+  margin-top: 1rem;
+}
+
+.noReviews {
+  font-size: 1.3rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: center;
+  color: var(--color6);
+}

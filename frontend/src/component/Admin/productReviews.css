@@ -1,0 +1,60 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.productReviewsContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--color6);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  height: 100vh;
+}
+
+.productReviewsForm {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+  background-color: var(--color6);
+}
+
+.productReviewsFormHeading {
+  color: rgba(0, 0, 0, 0.733);
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.productReviewsForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 2rem;
+}
+.productReviewsForm > div > input {
+  padding: 1rem 4rem;
+  padding-right: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font-family: cursive;
+  font-size: 0.9rem;
+  font-weight: 300;
+  outline: none;
+}
+
+.productReviewsForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.623);
+}

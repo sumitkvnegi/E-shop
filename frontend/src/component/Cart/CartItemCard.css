@@ -1,0 +1,40 @@
+.CartItemCard {
+  display: flex;
+  padding: 1rem;
+  height: 6rem;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.CartItemCard > img {
+  width: 4rem;
+}
+
+.CartItemCard > div {
+  display: flex;
+  margin: 0.2rem 1rem;
+  flex-direction: column;
+}
+
+.CartItemCard > div > a {
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: cursive;
+  color: rgba(24, 24, 24, 0.8);
+  text-decoration: none;
+}
+
+.CartItemCard > div > span {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgba(24, 24, 24, 0.8);
+}
+
+.CartItemCard > div > p {
+  color: var(--color2);
+  font-family: "Poppins";
+  font-size: 0.6rem;
+  font-weight: 100;
+  cursor: pointer;
+}

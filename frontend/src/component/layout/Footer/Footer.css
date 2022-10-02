@@ -1,0 +1,119 @@
+.footerwrapper {
+  position: relative;
+  width: 100%;
+  box-shadow: 0px -5px 24px 0px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 2rem var(--sizexl);
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.icon_footer {
+  font-size: var(--size4);
+  color: var(--color3);
+}
+
+.footer_bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../../../images/footer_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  cursor: not-allowed;
+}
+
+.footer_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--color1);
+  align-items: flex-start;
+  font-family: "Poppins";
+  justify-content: flex-start;
+}
+.footer_info2 {
+  display: flex;
+  flex-direction: column;
+  color: var(--color1);
+  align-items: flex-end;
+  font-family: "Poppins";
+  justify-content: center;
+}
+.footer_info2 > div {
+  display: flex;
+  padding: 0 var(--size1);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+.socials2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.testi {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.6rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.socials a {
+  color: var(--color1);
+  padding-right: 0.8rem;
+  font-size: var(--size1);
+  transition: all 0.5s ease-in-out;
+}
+.socials a:hover {
+  color: tomato;
+}
+.socials2 h1 {
+  font-size: var(--size3);
+  font-family: "Moon dance";
+}
+.testi h2 {
+  font-size: var(--size4);
+  font-family: "Droid Sans";
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+}
+.testi pre {
+  font-size: var(--size5);
+  font-weight: 400;
+  font-family: "Droid Sans";
+  padding-bottom: 1rem;
+}
+.testispace {
+  margin-top: 0.2rem;
+}
+.footerBottom {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerBottom p {
+  color: var(--color1);
+  font-size: var(--size4);
+  font-family: "Poppins";
+  padding-bottom: 1rem 0;
+}

@@ -1,0 +1,59 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.sidebar {
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--color6);
+  font-size: 1.2rem;
+  font-family: "Handlee";
+
+  font-weight: 200;
+  padding: 2rem;
+  transition: all 0.5s;
+}
+.sidebar a > p:hover {
+  color: tomato;
+  transform: scale(1.02);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.tree {
+  padding-right: 3rem !important;
+}
+
+.tree .MuiTypography-root {
+  font-size: 1.2rem;
+  font-family: "Handlee";
+  font-weight: 200;
+}
+
+.tree .MuiTreeItem-iconContainer > svg {
+  background-color: var(--color6);
+  border-radius: 2px;
+  color: var(--color2);
+}
+
+.tree:hover {
+  color: tomato;
+  transform: scale(1.02);
+}

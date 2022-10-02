@@ -1,0 +1,41 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  padding: var(--sizem);
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+}
+.icone > svg {
+  text-align: center;
+  width: 30%;
+  height: auto;
+  margin: var(--size3);
+}
+.errorhead {
+  font-size: var(--size4);
+  margin: 0;
+}
+
+.errorpara {
+  font-size: var(--size5);
+  width: 35%;
+  margin: 16px auto 24px;
+  text-align: center;
+}
+
+.errorbtn {
+  border-radius: 50px;
+  padding: var(--size4) var(--size2);
+  font-size: 1var (--size4);
+  cursor: pointer;
+  background: var(--color3);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px 0 #ccc;
+}

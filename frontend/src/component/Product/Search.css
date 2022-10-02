@@ -1,0 +1,51 @@
+.search_box {
+  transition: var(--transition);
+  background-color: var(--color1);
+  border-radius: 40px;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.4px solid var(--color3);
+  position: absolute;
+  top: var(--size5);
+  z-index: 999;
+}
+
+.search_box:hover > .search_txt {
+  width: 400px;
+  padding: 0 6px;
+}
+
+.search_box:hover > .search_btn {
+  background: var(--color2);
+  color: var(--color6);
+  font-size: var(--size5);
+}
+
+.search_btn {
+  float: right;
+  border-radius: 50%;
+  background: var(--color1);
+  color: var(--color2);
+  width: var(--size3);
+  height: var(--size3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size4);
+  transition: var(--transition);
+}
+
+.search_txt {
+  border: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: var(--color2);
+  font-family: "Handlee";
+  font-weight: 600;
+  font-size: var(--size4);
+  transition: var(--transition);
+  width: 0px;
+}

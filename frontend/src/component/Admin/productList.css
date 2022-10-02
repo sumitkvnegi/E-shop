@@ -1,0 +1,71 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.productListContainer {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: auto;
+  box-sizing: border-box;
+  background-color: var(--color6);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#productListHeading {
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: "Handlee";
+  padding: 0.5rem;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.637);
+  transition: all 0.5s;
+  margin: 1rem;
+  text-align: center;
+}
+
+.productListTable {
+  background-color: var(--color6);
+  border: none !important;
+}
+
+.productListTable div {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.678);
+  border: none !important;
+}
+
+.productListTable a,
+.productListTable button {
+  color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s;
+}
+
+.productListTable a:hover {
+  color: var(--color2);
+}
+
+.productListTable button:hover {
+  color: var(--color2);
+}
+
+.MuiDataGrid-columnHeader div {
+  color: var(--color6);
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  font-weight: 600 !important;
+  font-family: "Poppins";
+  font-size: 1rem !important;
+  color: var(--color3);
+}

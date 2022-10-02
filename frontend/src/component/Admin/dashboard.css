@@ -1,0 +1,100 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: absolute;
+}
+
+.dashboardContainer {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  background-color: var(--color6);
+  padding: 0;
+}
+/* 'Droid Sans', 'Poppins', 'Handlee', 'Satisfy' */
+.dashboardContainer > h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font-family: "Handlee";
+  letter-spacing: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+  padding: 0.4rem;
+  margin: auto;
+}
+
+.dashboardSummary {
+  margin: 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  background-color: var(--color6);
+  justify-content: center;
+}
+.dashboardSummary > div > p {
+  background-color: var(--color3);
+  color: var(--color6);
+  font-family: "Handlee";
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding: 0.4rem;
+  width: 100%;
+  margin: 0;
+}
+.dashboardSummaryBox2 > a {
+  color: rgb(0, 0, 0);
+  font-family: "Handlee";
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  background-color: var(--color4);
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 8rem;
+  height: 8rem;
+  margin: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.dashboardSummaryBox2 > a:first-child {
+  background-color: orange;
+  color: var(--color6);
+}
+
+.dashboardSummaryBox2 > a:last-child {
+  background-color: rgb(32, 32, 32);
+  color: var(--color6);
+}
+
+.lineChart {
+  width: 80%;
+  margin: auto;
+}
+
+.doughnutChart {
+  width: 30rem;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}

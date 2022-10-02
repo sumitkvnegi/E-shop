@@ -1,0 +1,22 @@
+.MuiStepConnector-line {
+  display: none !important;
+}
+
+.MuiStepConnector-root {
+  height: 1px;
+  background-color: rgb(44, 105, 141);
+}
+
+.MuiStepConnector-active,
+.MuiStepConnector-completed {
+  background-color: red;
+}
+
+.MuiStepper-root {
+  padding: 0.4rem !important;
+}
+
+.MuiTypography-root .MuiTypography-body1 {
+  font-size: 0.8rem !important;
+  font-family: "Poppins";
+}

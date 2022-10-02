@@ -1,0 +1,62 @@
+.myOrdersPage {
+  width: 100vw;
+  max-width: 100%;
+  padding: 0 6rem;
+  box-sizing: border-box;
+  background-color: rgb(235, 235, 235);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#myOrdersHeading {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  background-color: rgb(44, 44, 44);
+}
+
+.myOrdersTable {
+  background-color: var(--color6);
+}
+
+.myOrdersTable div {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.678);
+  border: none;
+}
+
+.myOrdersTable a {
+  color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s;
+}
+
+.myOrdersTable a:hover {
+  color: var(--color2);
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: var(--color2);
+  padding: 1rem !important;
+}
+
+.MuiDataGrid-columnHeader div {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins" !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}

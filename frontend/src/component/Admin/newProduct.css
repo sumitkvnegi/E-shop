@@ -1,0 +1,119 @@
+:root {
+  --color1: #ffffff;
+  --color2: rgb(17, 2, 59);
+  --color3: rgb(44, 105, 141);
+  --color4: #bae8e8;
+  --color5: #e3f6f5;
+  --color6: #f3f3f3;
+}
+
+.newProductContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--color6);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.newProductContainer h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 2rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  text-align: center;
+}
+
+.createProductForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+  justify-content: space-evenly;
+  background-color: var(--color6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.createProductForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.createProductForm > div > input,
+.createProductForm > div > select,
+.createProductForm > div > textarea {
+  padding: 1rem 4rem;
+  padding-right: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: cursive;
+  font-weight: 300;
+  outline: none;
+}
+
+.createProductForm > div > svg {
+  position: absolute;
+  transform: translateX(1rem);
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+#createProductFormFile > input {
+  display: flex;
+  padding: 0%;
+}
+
+#createProductFormFile > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 7vh;
+  border: none;
+  margin: 0%;
+  font-size: 0.8rem;
+  font-family: cursive;
+  font-weight: 600;
+  transition: all 0.5s;
+  padding: 0 1rem;
+  color: var(--color6);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#createProductFormFile > input::file-selector-button:hover {
+  background-color: var(--color6);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#createProductFormImage {
+  width: 100%;
+  margin: 1rem;
+  overflow: auto;
+}
+
+#createProductFormImage > img {
+  width: 3rem;
+  margin: 0 0.5rem;
+}
+#createProductBtn {
+  border: none;
+  background-color: var(--color2);
+  color: var(--color6);
+  font-size: 0.8rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  width: 100%;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+#createProductBtn:hover {
+  background-color: var(--color2);
+}

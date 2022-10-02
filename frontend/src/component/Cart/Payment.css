@@ -1,0 +1,66 @@
+.paymentContainer {
+  display: grid;
+  place-items: center;
+  background-color: var(--color6);
+  height: 65vh;
+  margin: 2rem;
+}
+
+.paymentForm {
+  width: 40%;
+  height: 100%;
+}
+
+.paymentForm > p {
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.753);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 1rem 0;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.paymentForm > div {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.paymentInput {
+  padding: 1rem 4rem;
+  padding-right: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+}
+
+.paymentForm > div > svg {
+  position: absolute;
+  transform: translateX(1rem);
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.paymentFormBtn {
+  border: none;
+  background-color: var(--color2);
+  color: var(--color6);
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 100%;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.paymentFormBtn:hover {
+  background-color: var(--color4);
+}

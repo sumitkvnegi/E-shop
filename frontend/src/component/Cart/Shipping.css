@@ -1,0 +1,89 @@
+.shippingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shippingBox {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shippingHeading {
+  padding-bottom: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: var(--size2);
+}
+
+.shippingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.shippingForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.shippingForm > div > input,
+.shippingForm > div > select {
+  box-shadow: 0 0 2px var(--color4);
+  margin: var(--size5) 0;
+  padding: var(--size5) 2rem;
+  padding-left: 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: var(--size5);
+  color: #333;
+  background-color: var(--color6);
+}
+
+.shippingForm > div > svg {
+  position: absolute;
+  right: 0;
+  transform: translateX(-1vmax);
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #555;
+}
+
+.shippingBtn {
+  margin: var(--size5) 0 0 0;
+  border: none;
+  background-color: var(--color3);
+  color: var(--color6);
+  width: 100%;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-family: "Poppins";
+  font-size: var(--size5);
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.shippingBtn:hover {
+  color: var(--color3);
+  background-color: var(--color4);
+}

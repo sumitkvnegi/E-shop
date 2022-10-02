@@ -1,0 +1,145 @@
+.confirmOrderPage {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.confirmOrderPage > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.confirmshippingArea {
+  padding: 5rem;
+  padding-bottom: 0%;
+}
+
+.confirmshippingArea > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.confirmshippingAreaBox,
+.confirmCartItemsContainer {
+  margin: 2rem;
+}
+
+.confirmshippingAreaBox > div {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.confirmshippingAreaBox > div > p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: black;
+}
+.confirmshippingAreaBox > div > span {
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Poppins";
+  color: #575757;
+}
+
+.confirmCartItems > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.confirmCartItems {
+  padding: 5rem;
+  padding-top: 2rem;
+}
+
+.confirmCartItemsContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+
+.confirmCartItemsContainer > div {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins";
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.confirmCartItemsContainer > div > img {
+  width: 3rem;
+}
+
+.confirmCartItemsContainer > div > a {
+  color: #575757;
+  margin: 0 2rem;
+  width: 60%;
+  text-decoration: none;
+}
+
+.confirmCartItemsContainer > div > span {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Poppins";
+  color: #5e5e5e;
+}
+
+.orderSummary {
+  padding: 6rem;
+}
+
+.orderSummary > p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 1rem;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.orderSummary > div > div {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins";
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.orderSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummaryTotal {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins";
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 2rem 0;
+}
+
+.orderSummary > button {
+  background-color: var(--color2);
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.orderSummary > button:hover {
+  background-color: var(--color4);
+}

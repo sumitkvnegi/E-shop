@@ -1,0 +1,158 @@
+.emptyCart {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emptyCart > svg {
+  font-size: 4rem;
+  color: var(--color2);
+}
+.emptyCart > p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.emptyCart > a {
+  background-color: rgb(51, 51, 51);
+  color: var(--color6);
+  text-decoration: none;
+  border: none;
+  padding: 0.8rem 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Poppins";
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.emptyCart > a:hover {
+  background-color: var(--color6);
+  color: rgb(51, 51, 51);
+}
+
+.cartPage {
+  padding: 4rem;
+}
+.cartHeader {
+  background-color: var(--color2);
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  color: var(--color6);
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+
+.cartHeader > p {
+  margin: 10px;
+}
+
+.CartItemCard > div > p {
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  font-family: "Poppins" !important;
+}
+
+.cartHeader > p:last-child {
+  text-align: end;
+}
+
+.cartContainer {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+
+.CartInput {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+}
+
+.CartInput > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  color: var(--color6);
+  padding: 0.4rem;
+  transition: all 0.5s;
+}
+
+.CartInput > button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.CartInput > input {
+  border: none;
+  width: 1rem;
+  margin: 0.4rem;
+  outline: none;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-family: "Poppins";
+  color: rgba(0, 0, 0, 0.7);
+  background-color: transparent;
+}
+
+.cartSubtotal {
+  display: flex;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: cursive;
+  align-items: center;
+  height: 6rem;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cartGrossTotal {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+}
+
+.cartGrossTotalBox {
+  border-top: 3px solid var(--color2);
+  box-sizing: border-box;
+  margin: 1rem 4rem;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 2rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins";
+}
+
+.checkOutBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkOutBtn > button {
+  background-color: var(--color2);
+  border-radius: 32px;
+  color: var(--color6);
+  width: 50%;
+  margin: 1rem 4rem;
+  padding: 0.6rem 0.4rem;
+  border: 1px solid var(--color2);
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: "Poppins";
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.checkOutBtn > button:hover {
+  background-color: var(--color6);
+  color: var(--color2);
+}
